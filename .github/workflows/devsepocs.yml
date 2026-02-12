@@ -91,7 +91,7 @@ jobs:
           sleep 30
 
       - name: ZAP Scan
-        run: python zap_scan.py
+        run: python zapscan.py
         env:
           ZAP_API_KEY: ${{ secrets.ZAP_API_KEY }}
         continue-on-error: true
