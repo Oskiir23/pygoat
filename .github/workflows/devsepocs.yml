@@ -59,8 +59,8 @@ jobs:
         with:
           args: >
             -Dsonar.host.url=https://sonarcloud.io
-            -Dsonar.organization=negrete-8
-            -Dsonar.projectKey=negrete-8_pygoat
+            -Dsonar.organization=oskiir23
+            -Dsonar.projectKey=Oskiir23_pygoat
             -Dsonar.sources=.
         continue-on-error: true
 
